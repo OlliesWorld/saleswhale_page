@@ -79,16 +79,16 @@ nav {
   text-align: center;
 }
 .join {
+  align-items: center;
   background: #0688fa;
   border-radius: 5px;
-  color: #ffff;
+  color: #ffffff;
   display: flex;
-  justify-content: center;
-  align-items: center;
   font-weight: bold;
   font-size: 16px;
-  line-height: 20px;
+  justify-content: center;
   height: 49px;
+  line-height: 20px;
   mix-blend-mode: normal;
   margin: 0 auto;
   right: 24px;
@@ -109,9 +109,9 @@ nav {
   max-width: 100%;
 }
 .timeline {
+  align-items: center;
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
 }
 .date {
   color: #0688fa;
@@ -146,14 +146,13 @@ nav {
 }
 
 .office-box {
-  background-color: #ffff;
+  background-color: #ffffff;
   border: 1px solid #e5e5e5;
-  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
   border-radius: 5px;
-
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  height: 210px;
   margin: 30px;
   max-width: 90%;
-  height: 210px;
   padding: 10px;
   text-align: center;
 }
@@ -161,7 +160,6 @@ nav {
 .invest-title {
   background-color: #fff5f5;
   margin: 0;
-
   text-align: center;
 }
 .investors {
@@ -170,8 +168,8 @@ nav {
   background-image: url('img/Mask\ Group.jpg');
   background-repeat: no-repeat;
   margin: 0;
-  padding: 20px;
   max-width: 100%;
+  padding: 20px;
 }
 
 .invest {
@@ -184,45 +182,45 @@ nav {
   max-width: 100%;
 }
 .invest img {
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
   margin: 0 auto;
   max-width: 100%;
 }
 /**Future**/
 .future {
-  color: #ffff;
   background-image: url('img/Vector\ 19.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  color: #ffff;
   height: 500px;
   max-width: 100%;
-  text-align: center;
   padding: 70px 30px;
+  text-align: center;
 }
 .future h2 {
+  align-items: center;
   color: #ffff;
+  display: flex;
   font-weight: bold;
   font-size: 32px;
+  justify-content: center;
   line-height: 40px;
   padding: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .demo {
   background-color: #ffff;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
   height: 49px;
   margin: 10px;
   right: 24px;
   top: 202px;
   width: 272px;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 23px;
 }
 .cases {
   background: #329dfa;
@@ -240,10 +238,10 @@ nav {
   margin: 30px;
 }
 .company {
-  max-width: 100%;
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  max-width: 100%;
+  margin: 0 auto;
 }
 ul {
   display: flex;
@@ -262,8 +260,8 @@ ul li {
   color: #002240;
   list-style: none;
   list-style-position: outside;
-  text-align: justify;
   padding: 5px;
+  text-align: justify;
 }
 
 footer {
@@ -271,7 +269,6 @@ footer {
   background-image: url('img/footer\ -\ waves.png');
   background-repeat: no-repeat;
   background-position: bottom;
-
   color: #002240;
   max-width: 100%;
   padding: 30px;
@@ -287,21 +284,21 @@ footer ul li img {
   margin-right: 10px;
 }
 footer .social-media {
-  display: flex;
   align-items: center;
-  justify-content: center;
+  display: flex;
   flex-direction: row;
+  justify-content: center;
   margin: 0 auto;
 }
 
 footer .circle {
+  align-items: center;
   border: 1px solid #fff;
   border-radius: 50%;
   color: #ffff;
   display: inline-flex;
-  justify-content: center;
-  align-items: center;
   height: 25px;
+  justify-content: center;
   margin-right: 10px;
   text-decoration: none;
   width: 25px;
@@ -320,9 +317,9 @@ footer .circle {
   font-weight: bold;
   font-size: 16px;
   line-height: 12px;
-  padding-bottom: 71px;
   margin: 0 auto;
   max-width: 100%;
+  padding-bottom: 71px;
   text-align: center;
 }
 .terms p {
@@ -338,7 +335,6 @@ footer .circle {
   }
   .vision {
     display: flex;
-
     margin-left: 80px;
     padding-right: 20px;
   }
@@ -347,9 +343,9 @@ footer .circle {
     padding-left: 30px;
   }
   .culture-title {
-    text-align: center;
     margin: 0 auto;
     max-width: 60%;
+    text-align: center;
   }
   .culture {
     display: flex;
@@ -382,11 +378,11 @@ footer .circle {
     width: 270px;
   }
   .investors {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     background-size: 800px;
     background-image: url('img/Mask\ Group-2.jpg');
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     max-width: 100%;
   }
   .invest {
@@ -404,15 +400,15 @@ footer .circle {
     margin: 20px 0 0 50px;
   }
   .company {
-    justify-content: flex-end;
     align-items: flex-start;
+    justify-content: flex-end;
     max-width: 70%;
     margin: -35px 0 0 150px;
   }
   ul {
-    padding-right: 30px;
     margin: 0;
     max-width: 60%;
+    padding-right: 30px;
   }
   li {
     padding: 30px;
@@ -426,15 +422,15 @@ footer .circle {
     background-size: 800px;
   }
   footer .social-media {
-    margin-left: 570px;
     justify-content: flex-end;
     align-items: flex-end;
+    margin-left: 570px;
   }
   .terms {
-    display: flex;
-    justify-content: flex-start;
     align-items: flex-start;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: flex-start;
     margin: -50px 0 0 30px;
     max-width: 40%;
   }
@@ -448,26 +444,27 @@ footer .circle {
     margin: 30px 0 50px 50px;
   }
   nav {
-    display: flex;
-    justify-content: flex-end;
     align-items: center;
-    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
   }
   nav a {
-    padding-right: 20px;
     color: #002240;
+    padding-right: 20px;
     text-decoration: none;
   }
   .nav-button {
     margin: 0 50px 0 50px;
+    padding-left: 250px;
   }
   .log-button {
     color: #0688fa;
     border: 1px solid #0688fa;
+    border-radius: 5px;
     font-size: 18px;
     padding: 12px;
     width: 96px;
-    border-radius: 5px;
   }
   .log-button a {
     margin: 0 auto;
@@ -487,7 +484,7 @@ footer .circle {
   }
   .vision {
     margin-left: 120px;
-    max-width: 100%;
+    max-width: 80%;
   }
   .vision h2 {
     font-size: 58px;
@@ -505,9 +502,7 @@ footer .circle {
   .title p {
     font-size: 21px;
   }
-  .title h2 {
-    font-size: 58px;
-  }
+
   .culture {
     margin-left: 100px;
   }
@@ -532,10 +527,9 @@ footer .circle {
     width: 198px;
   }
   .progress {
-    width: 1200px;
     height: 879px;
-
     padding: 50px;
+    width: 1200px;
   }
   .progress p {
     font-size: 26px;
@@ -546,8 +540,8 @@ footer .circle {
     width: 530px;
   }
   .office-box img {
-    width: 80px;
     margin: 0;
+    width: 80px;
   }
   .office-box h2 {
     font-size: 32px;
@@ -563,9 +557,9 @@ footer .circle {
     padding-top: 50px;
   }
   .investors {
-    display: flex;
     background-image: url('img/Mask\ Group-3.jpg');
     background-size: 1480px;
+    display: flex;
     padding-top: 80px;
     width: 100%;
   }
@@ -589,12 +583,12 @@ footer .circle {
   footer {
     background-size: 1440px;
     background-image: url('img/footer\ -\ waves-3.png');
-    padding: 70px;
     height: 300px;
+    padding: 70px;
   }
   .terms {
     font-size: 18px;
-    width: 250px;
     max-width: 40%;
+    width: 250px;
   }
 }
