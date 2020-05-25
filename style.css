@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Source Sans Pro;
+  max-width: 100%;
+  margin: 0;
+}
+header {
+  background-image: url('img/sw-logo-full.jpg');
+  background-repeat: no-repeat;
+  background-position: 50px;
+  height: 35px;
+  max-width: 100%;
+  margin: 30px;
+}
+p,
+h1,
+h2,
+h3 {
+  color: #002240;
+}
+nav {
+  display: none;
+}
+.hero {
+  background-image: url('img/hero-img.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  max-width: 80%;
+  height: 300px;
+}
+
+.vision {
+  margin-left: 30px;
+  max-width: 80%;
+}
+.vision h2 {
+  font-weight: bold;
+  font-size: 32px;
+}
+.vision p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.culture-title {
+  margin: 15px;
+  text-align: center;
+}
+.culture-title h2 {
+  font-weight: bold;
+  font-size: 32px;
+}
+.box h3 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+.box p {
+  color: #537089;
+  font-size: 16px;
+  line-height: 24px;
+}
+.box {
+  margin: 20px;
+  padding-bottom: 15px;
+}
+.cta {
+  color: #002240;
+  margin: 30px;
+  max-width: 80%;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.join {
+  background: #0688fa;
+  border-radius: 5px;
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  height: 49px;
+  mix-blend-mode: normal;
+  margin: 0 auto;
+  right: 24px;
+  text-align: center;
+  top: 980px;
+  width: 272px;
+}
+
+/*Progress*/
+.title {
+  text-align: center;
+}
+.progress {
+  background-color: #eff8ff;
+  background-image: url('img/vector 47.jpg');
+  background-repeat: no-repeat;
+  background-position: 33%;
+  max-width: 100%;
+}
+.timeline {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.date {
+  color: #0688fa;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+.envelope {
+  background-image: url('img/Ellipse 38.jpg');
+  background-repeat: no-repeat;
+  border-radius: 80%;
+  height: 56px;
+  width: 56px;
+}
+.envelope img {
+  padding: 10px 10px;
+}
+.text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 45%;
+}
+/**Offices**/
+.offices {
+  background-color: #fff5f5;
+  background-image: url('img/Vector\ 19.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  padding-bottom: 30px;
+}
+
+.office-box {
+  background-color: #ffff;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+
+  margin: 30px;
+  max-width: 90%;
+  height: 210px;
+  padding: 10px;
+  text-align: center;
+}
+/*Investors*/
+.invest-title {
+  background-color: #fff5f5;
+  margin: 0;
+
+  text-align: center;
+}
+.investors {
+  background-position-y: -90px;
+  background-size: 370px;
+  background-image: url('img/Mask\ Group.jpg');
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 20px;
+  max-width: 100%;
+}
+
+.invest {
+  background-color: #ffff;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  padding: 40px;
+  margin: 20px;
+  max-width: 100%;
+}
+.invest img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 100%;
+}
+/**Future**/
+.future {
+  color: #ffff;
+  background-image: url('img/Vector\ 19.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  max-width: 100%;
+  text-align: center;
+  padding: 70px 30px;
+}
+.future h2 {
+  color: #ffff;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.demo {
+  background-color: #ffff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  height: 49px;
+  margin: 10px;
+  right: 24px;
+  top: 202px;
+  width: 272px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+}
+.cases {
+  background: #329dfa;
+  color: #ffff;
+  height: 49px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  margin: 10px;
+  top: 667px;
+  width: 272px;
+}
+/**Company Info**/
+.footer-logo {
+  margin: 30px;
+}
+.company {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  max-width: 40%;
+  text-align: justify;
+}
+ul h4 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 12px;
+  max-width: 100%;
+}
+ul li {
+  color: #002240;
+  list-style: none;
+  list-style-position: outside;
+  text-align: justify;
+  padding: 5px;
+}
+
+footer {
+  background: #f4f4f4;
+  background-image: url('img/footer\ -\ waves.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+
+  color: #002240;
+  max-width: 100%;
+  padding: 30px;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li {
+  margin-bottom: 20px;
+}
+
+footer ul li img {
+  margin-right: 10px;
+}
+footer .social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+footer .circle {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  color: #ffff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  margin-right: 10px;
+  text-decoration: none;
+  width: 25px;
+}
+#facebook {
+  background-color: #35589d;
+}
+#twitter {
+  background-color: #5da8dc;
+}
+#linkedin {
+  background-color: #5da8dc;
+}
+.terms {
+  color: #002240;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 12px;
+  padding-bottom: 71px;
+  margin: 0 auto;
+  max-width: 100%;
+  text-align: center;
+}
+.terms p {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  margin: 0 auto;
+}
+/*Mobile Screen*/
+@media (min-width: 768px) {
+  .hero {
+    background-image: url('img/hero-img2.jpg');
+  }
+  .vision {
+    display: flex;
+
+    margin-left: 80px;
+    padding-right: 20px;
+  }
+  .vision-text {
+    max-width: 50%;
+    padding-left: 30px;
+  }
+  .culture-title {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 60%;
+  }
+  .culture {
+    display: flex;
+    margin-left: 20px;
+  }
+  .box {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    max-width: 30%;
+    padding: 20px;
+  }
+  .cta {
+    margin: 0 auto;
+    max-width: 50%;
+  }
+  .progress {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+  .timeline {
+    padding: 30px;
+  }
+  .offices {
+    display: flex;
+  }
+  .office-box {
+    margin: 0 auto;
+    padding: 20px;
+    width: 270px;
+  }
+  .investors {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-size: 800px;
+    background-image: url('img/Mask\ Group-2.jpg');
+    max-width: 100%;
+  }
+  .invest {
+    max-width: 35%;
+  }
+  .future {
+    background-color: #329dfa;
+    background-image: none;
+    max-width: 90%;
+    max-height: 215px;
+    margin: auto;
+    padding: 0;
+  }
+  .footer-logo {
+    margin: 20px 0 0 50px;
+    width: 150px;
+  }
+  .company {
+    justify-content: flex-end;
+    align-items: flex-start;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  ul {
+    padding-right: 30px;
+  }
+  li {
+    padding: 0;
+  }
+  h4 {
+    margin: 10px;
+  }
+
+  ul {
+    margin-left: 0;
+    max-width: 60%;
+  }
+  footer {
+    background-image: url('img/footer\ -\ waves\ \(1\).png');
+  }
+  footer .social-media {
+    margin-left: 570px;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .terms {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: -50px 0 0 30px;
+    max-width: 40%;
+  }
+  .terms p {
+    margin: 10px;
+  }
+}
+@media (min-width: 1440px) {
+  header {
+    background-image: url('img/sw-logo-full-3.jpg');
+    margin: 30px 0 50px 100px;
+  }
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+  }
+  nav a {
+    padding-right: 20px;
+    color: #002240;
+    text-decoration: none;
+  }
+  .nav-button {
+    margin: 0 50px 0 50px;
+  }
+  .log-button {
+    color: #0688fa;
+    border: 1px solid #0688fa;
+    font-size: 18px;
+    padding: 12px;
+    width: 96px;
+    border-radius: 5px;
+  }
+  .log-button a {
+    margin: 0 auto;
+  }
+  .nav-demo {
+    background: #0688fa;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 18px;
+    height: 42px;
+    padding: 12px;
+    width: 150px;
+  }
+  .hero {
+    background-image: url('img/hero-img-3.jpg');
+    max-width: 85%;
+  }
+  .vision {
+    margin-left: 120px;
+    max-width: 100%;
+  }
+  .vision h2 {
+    font-size: 58px;
+  }
+  .vision-text {
+    margin: 50px 0 50px 120px;
+    padding-right: 25px;
+  }
+  .vision-text p {
+    font-size: 18px;
+  }
+  .title {
+    font-size: 58px;
+  }
+  .title p {
+    font-size: 21px;
+  }
+  .title h2 {
+    font-size: 58px;
+  }
+  .culture {
+    margin-left: 100px;
+  }
+  .box h3 {
+    font-size: 21px;
+  }
+  .box p {
+    font-size: 18px;
+  }
+  .icon-glasses {
+    width: 100px;
+  }
+  .cta {
+    padding-bottom: 50px;
+  }
+  .cta p {
+    font-size: 21px;
+  }
+  .join {
+    font-size: 18px;
+    height: 59px;
+    width: 198px;
+  }
+  .progress {
+    width: 1200px;
+    height: 879px;
+
+    padding: 50px;
+  }
+  .progress p {
+    font-size: 26px;
+  }
+  .office-box {
+    height: 283px;
+    padding: 50px;
+    width: 530px;
+  }
+  .office-box img {
+    width: 80px;
+    margin: 0;
+  }
+  .office-box h2 {
+    font-size: 32px;
+    line-height: 34px;
+    margin: 15px;
+  }
+  .office-box p {
+    font-size: 18px;
+    margin: 0;
+  }
+  .invest-title {
+    font-size: 58px;
+    padding-top: 50px;
+  }
+  .investors {
+    display: flex;
+    background-image: url('img/Mask\ Group-3.jpg');
+    background-size: 1430px;
+    padding-top: 80px;
+    width: 100%;
+  }
+  .invest {
+    height: 283px;
+    margin: 50px;
+    width: 528px;
+  }
+  .invest img {
+    padding-top: 20px;
+    text-align: center;
+    width: 358px;
+  }
+  .future {
+    height: 400px;
+  }
+  .footer-logo {
+    margin: 50px 0 0 30px;
+    width: 193px;
+  }
+  footer {
+    background-size: 1440px;
+    background-image: url('img/footer\ -\ waves-3.png');
+    padding: 70px;
+    height: 300px;
+  }
+  .terms {
+    font-size: 18px;
+    width: 250px;
+    max-width: 40%;
+  }
+}
